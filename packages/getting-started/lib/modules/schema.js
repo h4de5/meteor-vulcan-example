@@ -24,14 +24,15 @@ const schema = {
     Uncomment on #Step12:
 
     */
-    // resolveAs: {
-    //   fieldName: 'user',
-    //   type: 'User',
-    //   resolver: async (movie, args, context) => {
-    //     return await context.Users.loader.load(movie.userId);
-    //   },
-    //   addOriginalField: true,
-    // },
+		resolveAs: {
+			/* field name will be user instead of userId */
+      fieldName: 'user',
+      type: 'User',
+      resolver: async (movie, args, context) => {
+        return await context.Users.loader.load(movie.userId);
+      },
+      addOriginalField: true,
+    },
   },
 
   name: {
