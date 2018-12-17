@@ -15,11 +15,13 @@ registerFragment(/* GraphQL */`
       displayName
     }
     name
-    parentId,
+		description
+    parentId
     parent {
       ... on Category {
         _id
         name
+				description
       }
     }
   }

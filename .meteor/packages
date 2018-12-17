@@ -14,8 +14,7 @@ accounts-password@1.5.1
 
 ############ Your Packages ############
 
-getting-started
-
+# getting-started
 # example-simple
 # example-movies
 # example-instagram
@@ -23,6 +22,6 @@ getting-started
 # example-customization
 # example-permissions
 # example-membership
-# example-interfaces
+example-interfaces
 # example-reactions
 # example-forms

@@ -4,6 +4,8 @@ A SimpleSchema-compatible JSON schema
 
 */
 
+import SimpleSchema from 'simpl-schema';
+
 const schema = {
 
   // HierarchicalInterface required properties
@@ -66,7 +68,16 @@ const schema = {
     canRead: ['guests'],
     canCreate: ['members'],
     canUpdate: ['members'],
-  },
+	},
+	
+	description: {
+		label: 'Description',
+		type: String,
+		optional: true,
+		canRead: ['members'],
+		canCreate: ['members'],
+		canUpdate: ['members'],
+	},
 
 };
 

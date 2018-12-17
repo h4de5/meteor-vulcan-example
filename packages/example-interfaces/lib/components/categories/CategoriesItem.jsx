@@ -20,7 +20,8 @@ const CategoriesItem = ({category, currentUser}) =>
       {category.parentId
         ? <h5>{category.name}</h5>
         : <h4>{category.name}</h4>
-      }
+			}
+			{category.description}
 
       {/* edit document form */}
 

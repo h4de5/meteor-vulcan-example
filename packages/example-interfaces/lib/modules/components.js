@@ -4,4 +4,5 @@ import '../components/categories/CategoriesList.jsx';
 import '../components/categories/CategoriesNewForm.jsx';
 import '../components/categories/CategoriesPage.jsx';
 
+// import '../components/common/MySmartForm.jsx';
 import '../components/common/Layout.jsx';
